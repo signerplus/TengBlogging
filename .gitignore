@@ -1,0 +1,38 @@
+# Build
+target
+target-eclipse
+
+# IDEA
+*.iml
+*.ipr
+*.iws
+.idea
+atlassian-ide-plugin.xml
+
+# Eclipse
+.classpath
+.project
+.settings
+.checkstyle
+.fbprefs
+.metadata
+bin
+
+# NetBeans
+nbproject
+
+# Other
+*.log.*
+*.log
+.sonar-ide.properties
+.clover
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*

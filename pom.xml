@@ -2,13 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>demo</groupId>
-	<artifactId>blogging</artifactId>
+	<groupId>tengblogging</groupId>
+	<artifactId>tengblogging</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>blogging</name>
-	<url>http://maven.apache.org</url>
+	<name>TengBlogging</name>
+	<url>https://github.com/junhan/TengBlogging</url>
 
 	<properties>
 		<java-version>1.6</java-version>
@@ -47,11 +47,11 @@
 					<deployer>
 						<deployables>
 							<deployable>
-								<groupId>demo</groupId>
-								<artifactId>blogging</artifactId>
+								<groupId>tengblogging</groupId>
+								<artifactId>tengblogging</artifactId>
 								<type>war</type>
 								<properties>
-									<context>blogging</context>
+									<context>TengBlogging</context>
 								</properties>
 							</deployable>
 						</deployables>

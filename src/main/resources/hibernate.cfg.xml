@@ -5,10 +5,10 @@
  
 <hibernate-configuration>
     <session-factory>
-        <mapping class="demo.blogging.model.User" />
-        <mapping class="demo.blogging.model.Blog" />
-        <mapping class="demo.blogging.model.Follower" />
-        <mapping class="demo.blogging.model.BlogTracking" />
+        <mapping class="tengblogging.model.User" />
+        <mapping class="tengblogging.model.Blog" />
+        <mapping class="tengblogging.model.Follower" />
+        <mapping class="tengblogging.model.BlogTracking" />
     </session-factory>
  
 </hibernate-configuration>
